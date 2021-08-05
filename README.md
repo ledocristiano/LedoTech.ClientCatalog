@@ -1,13 +1,20 @@
 Eu utilizei o PostMan para teste
 
 GET
-http://localhost:63534/api/clients
+
+
 Retorna lista de Clientes
-http://localhost:63534/api/clients/1
+
+http://localhost:63534/api/clients
+
 Retorna cliente em específico
 
+http://localhost:63534/api/clients/1
+
 POST
+
 http://localhost:63534/api/clients
+
 Ex:
 {
 	"RazaoSocial":"Teste",
@@ -15,7 +22,9 @@ Ex:
 }
 
 PUT
+
 http://localhost:63534/api/clients
+
 Ex:
 {
 	"Codigo": 1
@@ -24,6 +33,7 @@ Ex:
 }
 
 DELETE
+
 http://localhost:63534/api/clients/1
 
 
