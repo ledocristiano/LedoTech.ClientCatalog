@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LedoTech.ClientCatalog.Application\LedoTech.ClientCatalog.Application.csproj" />
+    <ProjectReference Include="..\LedoTech.ClientCatalog.Domain\LedoTech.ClientCatalog.Domain.csproj" />
+    <ProjectReference Include="..\LedoTech.ClientCatalog.Infra.Data.Repository\LedoTech.ClientCatalog.Infra.Data.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

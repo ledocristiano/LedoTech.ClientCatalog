@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LedoTech.ClientCatalog.Application\LedoTech.ClientCatalog.Application.csproj" />
+    <ProjectReference Include="..\LedoTech.ClientCatalog.Infra.CrossCutting.IoC\LedoTech.ClientCatalog.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
 
